@@ -52,3 +52,46 @@ cursor: pointer;
    transform: scale(1.05);
 box-shadow: 0 10px 20px rgba(0,0,0,.5), 0 4px 8px rgba(0,0,0,.5);
 }
+.navbar {
+  background: #000000
+}
+
+.nav-item::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: #000000;
+  transition: 0.4s
+}
+
+.nav-item:hover::after {
+  width: 100%
+}
+
+.nav-link:hover {
+  color: #000000
+}
+
+.nav-link {
+  transition: 0.2s;
+}
+
+.bg-hero-image {
+  background-image: url('https://picsum.photos/1300/500');
+  background-position: center center;
+  
+} 
+.box {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.3), 0 0 6px rgba(0,0,0,.3);
+    transition: .5s transform cubic-bezier(.155,1.105,.295,1.12),.5s box-shadow,.5s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+cursor: pointer;
+
+}
+.box:hover{
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.5), 0 4px 8px rgba(0,0,0,.5);
+
+}
