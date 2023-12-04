@@ -55,7 +55,12 @@ box-shadow: 0 10px 20px rgba(0,0,0,.5), 0 4px 8px rgba(0,0,0,.5);
 .navbar {
   background: #181818
 }
-
+.navbar-brand {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.nav-item {
+  font-family: 'Merriweather Sans', sans-serif;
+}
 .nav-item::after {
   content: '';
   display: block;
@@ -110,7 +115,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,.5), 0 4px 8px rgba(0,0,0,.5);
 }
 
 h2 {
-  font-size: 2.6vw;
+  font-size: 2.8vw;
 }
 h1 {
   font-size: 4rem;
@@ -120,14 +125,15 @@ h1 {
   margin-left: 5em;
 }
 .video {
-  border-radius: 5px;
-  background: #fff;
-  box-shadow: 0 6px 10px rgba(0,0,0,.3), 0 0 6px rgba(0,0,0,.3);
-  transition: .5s transform cubic-bezier(.155,1.105,.295,1.12),.5s box-shadow,.5s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-  cursor: pointer;
+width: 100%;
 }
-.video:hover{
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.5), 0 4px 8px rgba(0,0,0,.5);
-
+h1.heading {
+  font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Yellowtail', cursive;
+color: black;
+justify-content: center;
+text-align: center;
+}
+h2 {
+  font-family: 'Merriweather Sans', sans-serif;
 }

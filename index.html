@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400&family=Yellowtail&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,16 +21,14 @@
     <!--Navbar start-->
     <nav class="navbar fixed-top navbar-expand-lg bg-body-dark">
         <div class="container-fluid">
-            <a class=" text-light navbar-brand" href="#">Matthew Passantino</a>
+            <a class=" text-light navbar-brand" href="index.html">Look Ma, I'm Famous</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto my-2 me-4 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                    <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
-                    </li>
+
                     <li class="nav-item">
                       <a class="nav-link active text-light" aria-current="page" href="#text">Early Life</a>
                   </li>
@@ -37,6 +38,9 @@
                 <li class="nav-item">
                   <a class="nav-link active text-light" aria-current="page" href="#conflict">Challenges</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#info">More Info</a>
+            </li>
 
 
             </div>
@@ -45,18 +49,18 @@
     <!--Navbar end-->
         <!--Header Section-->
         <!--Hero-->
-        <div class="banner w-100 vh-80 d-flex justify-content-center align-items-center">
+        <div class="banner w-100 mb-5 vh-80 d-flex justify-content-center align-items-center">
           <div class="content text-center">
             <h1>Abraham Lincoln</h1>
           </div>
         </div>
         <!--Header Section end-->
         <!--Gallery-->
-        <!--November-->
-        
+            <!--Header Section-->
+        <h1 class="heading">Lincoln's History</h1>
   <div class="container mt-5 mb-5" id="text">
     <!--Header Section-->
-    <!--Hero-->
+    <!--Early Life-->
     <div class="row m-3 box">
         <div class="col-12 col-lg-4 p-5  text-center bg-hero-image rounded-start-2 overflow-hidden">
             <div class="d-flex justify-content-center align-items-center h-100">
@@ -67,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <!--Hero end-->
+        <!--Early Life end-->
         <!--Description-->
         <div class="col-12 col-lg-8 my-lg-0 p-3 bg-none border border-light rounded-end-2 text-center">
             <p class="m-3">
@@ -79,8 +83,7 @@
     </div>
     </div>
     <div class="container mb-5">
-      <!--Header Section-->
-      <!--Hero-->
+      <!--Accomplishments-->
       <div class="row m-3 box">
         <div class="d-lg-none p-5  text-center bg-hero-image1 rounded-start-2 overflow-hidden">
           <div class="d-flex justify-content-center align-items-center h-100">
@@ -91,7 +94,6 @@
               </div>
           </div>
       </div>
-      <!--Hero end-->
           <!--Description-->
           <div class="col-12 col-lg-8 my-lg-0 p-3 bg-none border border-light rounded-end-2 text-center" id="feats">
               <p class="m-3">
@@ -109,12 +111,11 @@
                 </div>
             </div>
         </div>
-        <!--Hero end-->
+        <!--Accomplishments end-->
       </div>
       </div>
       <div class="container mb-5">
-        <!--Header Section-->
-        <!--Hero-->
+        <!--Challenges-->
         <div class="row m-3 box">
             <div class="col-12 col-lg-4 p-5  text-center bg-hero-image2 rounded-start-2 overflow-hidden">
                 <div class="d-flex justify-content-center align-items-center h-100">
@@ -125,7 +126,6 @@
                     </div>
                 </div>
             </div>
-            <!--Hero end-->
             <!--Description-->
             <div class="col-12 col-lg-8 my-lg-0 p-3 bg-none border border-light rounded-end-2 text-center" id="conflict">
                 <p class="m-3">
@@ -135,39 +135,22 @@
             </div>
             <!--Description end-->
         </div>
+        <!--Challenges end-->
         </div>
+        <!--Iframes-->
+        <div id="info">
+        <h1 class="heading">More Information</h1>
         <div class="row m-5 mb-5 mt-4 justify-content-around">
           <div class="card col-12 col-lg-5 p-3 mb-4">
-              <img src="https://picsum.photos/600/400" class="card-img-top" alt="...">
-              <div class="card-body text-center">
-                  <h5 class="card-title">Early Life</h5>
-                  <p class="card-text">Abraham Lincoln was born on February 12, 1809, in a log cabin in Hardin County, Kentucky. His parents, Thomas Lincoln and Nancy Hanks Lincoln, were farmers who struggled to make ends meet.  Despite the challenges of frontier life, Lincoln showed an early interest in learning, and he taught himself to read and write. He also helped his father with farm work and other chores, developing a strong work ethic that would serve him well in his later years. Despite the challenges of frontier life, Lincoln showed an early interest in learning, and he taught himself to read and write. He also helped his father with farm work and other chores, developing a strong work ethic that would serve him well in his later years.
-                    </p>
-                  <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-              </div>
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/BoyY1r39tt8?si=TiWM78G0_e6KIsJm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
-      <!--November end-->
-      <!--December-->
           <div class="card col-12 col-lg-5 p-3 mb-4">
-              <img src="https://picsum.photos/600/400" class="card-img-top" alt="...">
-              <div class="card-body text-center">
-                  <h5 class="card-title">Accomplishments</h5>
-                  <p class="card-text align-items-center">Abraham Lincoln was one of the most influential presidents in American history, and his legacy continues to resonate to this day. Here are some of his major accomplishments: Emancipation Proclamation: In 1863, Lincoln issued the Emancipation Proclamation, which declared that all slaves in Confederate-held territory were to be set free. Gettysburg Address: In 1863, Lincoln delivered one of the most famous speeches in American history at the dedication of the Gettysburg National Cemetery. His brief but powerful address, eloquently expressed the ideals of freedom and democracy that the Civil War was being fought to uphold. Preservation of the Union: Lincoln's steadfast commitment to preserving the unity of the United States was a major accomplishment in its own right and his leadership helped to ensure that the Union emerged from the Civil War intact.
-
-                    </p>
-                  <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-              </div>
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/L80_q2tPveo?si=HtM3xTeO_TQAm1mH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
-      <!--December end-->
-      <!--January-->
-      <!--January end-->
+      <!--Iframes end-->
       </div>
       <!--Gallery end-->
   </div>
-  <div class="info">
-  <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/L80_q2tPveo?si=HtM3xTeO_TQAm1mH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/BoyY1r39tt8?si=TiWM78G0_e6KIsJm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
